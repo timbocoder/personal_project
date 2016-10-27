@@ -1,0 +1,230 @@
+body {
+	font-family: 'Libre Franklin', sans-serif;
+	margin:0;
+	background-color: #DC143C;
+}
+
+ul{
+overflow:hidden;
+}
+li{
+display:inline-block;
+}
+#buttons li {
+    float: center;
+    list-style: none;
+    text-align: center;
+    background-color: #000000;
+    margin-right: 20px;
+    width: 120px;
+    line-height: 50px;
+    border-radius: 15px;
+    border: 3px outset #b37d00;
+}
+#buttons li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+ 
+#buttons li a:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #33B5E5;
+    border-radius: 15px;
+}
+
+#buttons .active-page {
+	color: #000000;
+	background-color: #33B5E5;
+	border-radius: 15px;
+}
+
+.link-btn a {
+	text-decoration: none;
+}
+
+.link-btn {
+	padding: 3px;
+	background-color: red;
+	border-radius: 5px;
+}
+
+.container {
+	background-color: #DC143C;
+	padding: 25px;
+	height: 100px;
+}
+
+#main {
+	/*height: 595px;*/
+	width: 100%;
+
+}
+
+.background-default {
+	background-size: cover;
+	float: left;
+	width: 60%;
+	height: 612px;
+	padding: 5px 13px 0px 13px; 
+	margin: auto;
+	max-width:100%;
+}
+
+.backgroundH {
+	background-image: url(../images/DadandNick.jpeg);
+}
+
+.backgroundCopy {
+	background-color:rgba(255,255,255,0.8);
+}
+
+#front-page-list li {
+	display: list-item;
+}
+
+.backgroundN {
+	background-image: url(../images/rugby.jpeg);
+}
+
+.backgroundC {
+	background-image: url(../images/nick.jpeg);
+}
+	
+
+.backgroundST {
+	background-image: url(../images/publixhalfjpg.jpeg);
+}
+
+.backgroundSTR {
+	background-image: url(../images/RyanLochte.jpeg);
+}
+
+
+.backgroundSP {
+	background-image: url(../images/thanksgivinghalf.jpeg);
+}
+
+.backgroundFL {
+	background-image: url(../images/nashvillepool.jpeg);
+}
+
+.images {
+	max-height: 100%
+	max-width: 100%;
+}
+
+.videointro {
+	background-color: orange;
+	padding-left: 30px;
+    height: 617px;
+    margin: auto;
+
+
+}
+
+.videointro iframe {
+	width: 25% !important;
+    height: 32% !important;
+    padding: 6%;
+}
+
+.title {
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+}
+	
+.title:hover {
+	color: #33B5E5;
+
+}	
+
+.mobile-menu-options {
+  display: none;
+  width: 69%;
+
+}
+
+.footer-container {
+	margin: auto;
+	height: 45px;
+	background-color: green;
+	text-align: center;
+	color: white;
+
+}
+
+.footer-container h4 {
+	margin: 0;
+}
+
+h3 {
+	text-align: center;
+	padding: 19px 9px 0px 2px;
+}
+
+.register {
+	float: right;
+    margin: 50px;
+
+}
+
+@media screen and (max-width: 760px) {
+	.container nav ul {
+		display: none;
+	}
+
+	.background-default {
+		width: 100%;
+	}
+	
+	.background {
+		clear: both;
+		width: 96%;
+		box-shadow: none;
+		height: 300px;
+	}
+
+	.mobile-menu {
+  		float: right;
+  		margin: 26px;
+	}
+
+	.hamburger {
+  		width: 35px;
+  		height:5px;
+  		background-color: #f9e42e;
+  		margin-bottom: 3px;
+
+	}
+
+	.container {
+  		width: 100%;
+	}
+
+	.mobile-menu-options {
+  		text-align: center;
+	}
+
+	.mobile-menu-options li a {
+  		color: white;
+	}
+
+	.videointro {
+		background-color: orange;
+	    width: 100%;
+		padding-left: 27px;
+	    margin: auto;
+	    height:auto;
+	}
+
+	.videointro iframe {
+		width: 75% !important;
+	    height: 50%!important;
+	    padding: 6%;
+	}
+
+}	
