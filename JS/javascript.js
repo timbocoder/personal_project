@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$( '.mobile-menu' ).on( 'click touchstart', function() {
+	$( '.mobile-menu' ).on( 'click', function() {
 		$( '.mobile-menu-options' ).slideToggle();
 
 	})
